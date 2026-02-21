@@ -1,0 +1,10 @@
+# no Cert-Manager?:
+# kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.13.0/cert-manager.yaml
+ 
+# helm repo add rancher-stable https://releases.rancher.com/server-charts/stable
+
+# helm install rancher rancher-stable/rancher -f rancher-values.yaml --namespace cattle-system --create-namespace
+
+
+hostname: rancher.jelmer.page
+replicas: 1
