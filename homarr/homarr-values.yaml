@@ -1,0 +1,16 @@
+persistence:
+  config:
+    enabled: true
+    mountPath: /app/data
+    size: 1Gi
+    accessMode: ReadWriteOnce
+    storageClass: "longhorn" # Bijv. 'longhorn' of 'nfs'
+
+
+ingress:
+  main:
+    enabled: true
+    hosts:
+      - host: homarr.jelmer.page
+        paths:
+          - path: /
