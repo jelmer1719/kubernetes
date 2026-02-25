@@ -3,7 +3,7 @@
 # helm install rancher rancher-stable/rancher -f rancher-values.yaml --namespace cattle-system --create-namespace
 
 
-hostname: rancher.jelmer.page
+hostname: rancher.jelmerklaveren.nl
 replicas: 1
 
 ingress:
