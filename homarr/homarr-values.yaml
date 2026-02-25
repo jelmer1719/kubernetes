@@ -11,6 +11,6 @@ ingress:
   main:
     enabled: true
     hosts:
-      - host: homarr.jelmer.page
+      - host: homarr.jelmerklaveren.nl
         paths:
           - path: /
